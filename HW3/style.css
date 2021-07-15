@@ -1,0 +1,339 @@
+body{
+    background :#E5E5E5;
+}
+
+h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 110px;
+    line-height: 133px;
+    display: flex;
+    align-items: center;
+    color: #0B2239;
+}
+.Banner_1 {
+    font-family: Inter, sans-serif;
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: #0B2239;
+}
+
+.Banner_1>p {
+    width: 922px;
+    height: 40px;
+    color: #FFF;
+    margin: 16px 32px 16px 120px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.Banner_1>a {
+    color: #4AD295;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    width: 106px;
+    height: 36px;
+    margin: 26px 20px 26px 0;
+}
+.Banner_1>button {
+    color: #FFF;
+    background-color: #4AD295;
+    padding: 8px 10px;
+    width: 130px;
+    height: 36px;
+    border-radius: 2px;
+    border-style: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 18px 120px 18px 0;
+}
+.Banner_2{
+    margin-top: 25px;
+    display: flex;
+    background-color: #2B2627;
+    width: 1440px;
+    height: 52px;
+    background: #2B2627;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+.Banner_2>img{
+    max-width: 16px;
+}
+.Banner_2>p{
+    margin: 16px 20px 16px 8px;
+    color: #FFF;
+}
+
+.Banner_2>p>a{
+    color: #FFF;
+}
+.Banner_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    width: 560px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    margin-top: 72px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 16px;
+}
+.Banner_3>p{
+    position: static;
+    width: 347px;
+    height: 40px;
+    left: 62px;
+    top: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;  
+}
+.Banner_3>img{
+    max-width: 36px;
+    margin: 18px 10px 18px 16px;
+}
+.Banner_3>p>span{
+    color: pink;
+}
+.Banner_3>.decline-button{
+    width: 63px;
+    height: 28px;
+    background: rgba(13, 12, 34, 0.05);
+    border-radius: 8px;
+    border-style: none;
+    padding: 4px 10px;
+    margin: 22px 10px 22px 0;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #0D0C22;
+}
+.Banner_3>.allow-button{
+    width: 52px;
+    height: 28px;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    margin: 22px 16px 22px 0;
+    padding: 4px 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.Banner_4 {
+    font-family: Roboto, sans-serif;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 64px;
+    background: #26262B;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 10px;
+}
+
+.Banner_4>p {
+    width: 469px;
+    height: 40px;
+    left: 16px;
+    top: 12px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 12px 10px 12px 16px;
+}
+
+.Banner_4>p>span {
+    color: orange;
+}
+
+.Banner_4>button {
+    width: 49px;
+    height: 28px;
+    left: 495px;
+    top: 18px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border-style: none;
+    margin: 18px 16px 18px 0;
+    padding: 4px 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #26262B;
+}
+.Banner_5-8{
+    display: flex;
+    max-width: 760px;
+    flex-wrap: wrap;
+    margin-top: 72px;
+}
+
+ .Banner_5{
+    font-family: Roboto;
+    width: 360px;
+    height: 206px;
+    background: rgba(28, 37, 64, 0.95);
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 6px;
+    margin-right: 40px;
+    margin-bottom: 72px;
+ }
+ .Banner_5>h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 24px; 
+}
+.Banner_5>p>a{
+    color: #FFFFFF;
+}
+
+.Banner_5>p{
+    width: 312px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 24px;
+}
+.Banner_5>span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 24px 67px 32px 24px;
+}
+.Banner_5>a>button{
+    width: 85px;
+    height: 32px;
+    background: #09B3AF;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+ .Banner_6{
+    width: 360px;
+    height: 170px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 16px;
+ }
+ .Banner_6>h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0F181D;
+    margin-left: 10px;
+ }
+ .Banner_6>p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #687F8C; margin:16px;
+ }
+ .Banner_6>a>button{
+    width: 160px;
+    height: 32px;
+    font-size: 14px;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+    border-radius: 6px;
+    color: #687F8C;
+    margin: 0px 8px 16px 16px;
+ }
+ .Banner_6>button{
+    width: 160px;
+    height: 32px;
+    background: #40C1A7;
+    border-radius: 6px;
+    color: #FFFFFF;
+ }
+ .Banner_7{
+    width: 320px;
+    height: 260px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    display: block;
+    border-radius: 20px;
+    margin-right: 40px;
+    
+ }
+ .Banner_7>h2{
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    color: #15295A;;
+ }
+ .Banner_7>p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #15295A;
+    margin: 0 32px 32px 32px;
+ }
+ .Banner_7 >a>button{
+    background: #4A7EFF;
+    border-radius: 43px;
+    width: 121px;
+    height: 44px;
+    text-align: center;
+    margin-left: 100px;
+    color: #FFFFFF;
+ }
+
+.Banner_8{
+    width: 320px;
+    height: 137px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 4px;
+    display: inline-block;}
+.Banner_8>p{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin: 16px 16px 20px 16px;
+}
+.Banner_8>a{
+    color: #6666FF;
+    text-decoration: solid;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.Banner_8>a>button{
+    background: #6666FF;
+    border-radius: 4px;
+    width: 64px;
+    height: 33px;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 100px;
+    color: #FFFFFF;
+}
