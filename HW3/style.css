@@ -275,7 +275,7 @@ h1{
     height: 260px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
     box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
-    display: block;
+    display: upper-block;
     border-radius: 20px;
     margin-right: 40px;
     
@@ -311,7 +311,7 @@ h1{
     background: #FFFFFF;
     box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
     border-radius: 4px;
-    display: inline-block;}
+    display: inline-upper-block;}
 .Banner_8>p{
     font-family: Roboto, sans-serif;
     font-size: 14px;
