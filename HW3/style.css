@@ -76,6 +76,7 @@ h1{
 
 .Banner_2>p>a{
     color: #FFF;
+    cursor: pointer;
 }
 .Banner_3{
     display: flex;
@@ -108,7 +109,7 @@ h1{
     max-width: 36px;
     margin: 18px 10px 18px 16px;
 }
-.Banner_3>p>span{
+.Banner_3>p>a{
     color: pink;
 }
 .Banner_3>.decline-button{
@@ -166,7 +167,7 @@ h1{
     margin: 12px 10px 12px 16px;
 }
 
-.Banner_4>p>span {
+.Banner_4>p>a {
     color: orange;
 }
 
@@ -182,7 +183,6 @@ h1{
     padding: 4px 10px;
     font-size: 12px;
     line-height: 20px;
-    color: #26262B;
 }
 .Banner_5-8{
     display: flex;
@@ -198,6 +198,7 @@ h1{
     background: rgba(28, 37, 64, 0.95);
     box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
     border-radius: 6px;
+    border-style: none;
     margin-right: 40px;
     margin-bottom: 72px;
  }
@@ -210,6 +211,7 @@ h1{
 }
 .Banner_5>p>a{
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .Banner_5>p{
@@ -232,6 +234,7 @@ h1{
     height: 32px;
     background: #09B3AF;
     border-radius: 6px;
+    border-style: none;
     color: #FFFFFF;
 }
  .Banner_6{
@@ -258,8 +261,8 @@ h1{
     width: 160px;
     height: 32px;
     font-size: 14px;
-    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
     border-radius: 6px;
+    border-style: none;
     color: #687F8C;
     margin: 0px 8px 16px 16px;
  }
@@ -268,13 +271,13 @@ h1{
     height: 32px;
     background: #40C1A7;
     border-radius: 6px;
+    border-style: none;
     color: #FFFFFF;
  }
  .Banner_7{
     width: 320px;
     height: 260px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
-    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
     display: upper-block;
     border-radius: 20px;
     margin-right: 40px;
@@ -298,6 +301,7 @@ h1{
  .Banner_7 >a>button{
     background: #4A7EFF;
     border-radius: 43px;
+    border-style: none;
     width: 121px;
     height: 44px;
     text-align: center;
@@ -309,7 +313,6 @@ h1{
     width: 320px;
     height: 137px;
     background: #FFFFFF;
-    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
     border-radius: 4px;
     display: inline-upper-block;}
 .Banner_8>p{
@@ -329,6 +332,7 @@ h1{
 .Banner_8>a>button{
     background: #6666FF;
     border-radius: 4px;
+    border-style: none;
     width: 64px;
     height: 33px;
     font-family: SF Pro Text;
