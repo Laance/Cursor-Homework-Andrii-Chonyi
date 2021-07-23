@@ -1,5 +1,6 @@
 body{
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
     margin: 0 auto;
     width: 1440px;
 }
@@ -129,6 +130,7 @@ footer{
 }
 
 .Adress>a{
+    text-decoration: none;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
@@ -148,18 +150,30 @@ footer{
    font-size: 18px;
    line-height: 22px;
    color: #101010;
+   text-decoration: none;
+   
+
 }
 .service__link{
+    display: flex;
+    flex-flow: column wrap;
+    font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 160%;
+    text-transform: capitalize;
     color: #000000;
+    text-decoration: none;
+}
 }
 .supprot{
     display: grid;
 }
 .supprot>a{
+    display: flex;
+    flex-flow: column wrap;
+    text-decoration: none;
     margin-bottom: 33px;
     font-weight: bold;
     font-size: 18px;
@@ -167,14 +181,15 @@ footer{
     color: #101010;
 }
 .get_link_upper-block1>a{
+    text-decoration: none;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     color: #101010;
-
     margin-bottom: 34px;
     }
 .get_link_upper-block1>p>a{
+    text-decoration: none;
     width: 122px;
     height: 14px;
     left: 734px;
