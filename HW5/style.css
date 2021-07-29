@@ -54,6 +54,7 @@ header>nav>ul>li:hover {
 .Request{
     width: 231px;
     height: 60px;
+    min-width: 231px;
     padding-top: 17px;
     padding-right: 29px;
     padding-bottom: 17px;
@@ -548,7 +549,7 @@ header>nav>ul>li:hover {
 
 }
 .media{
-    width: 178px;
+    min-width: 178px;
     height: 110px;
 }
 .media>img{
