@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body {
+   font-family: Roboto, sans-serif;
+   max-width: 100%;
+   height: auto;
+   margin: 0 auto;
+   padding: 0;
+   background-color: rgb(54, 54, 54);
+ }
+ .main{
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+ }
+ .arrow{
+    width: 20px;
+    height: 10px;
+ }
+ .wrap {
+   width: 1440px;
+   height: 1000px;
+   padding-top: 50px;
+}
+
+ .table_1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   border: 1px solid #868686;
+   border-radius: 10px;
+   margin: 0 0 50px 140px;
+   border-spacing: 0;
+   max-width: 1040px;
+   max-height: 65pxк;
+}
+.head {
+   width: 500px;
+   padding: 20px 0 20px 20px;
+   font-weight: bold;
+   font-size: 18px;
+   border-bottom: 1px solid #868686;
+   color: #FFF;
+   text-align: left;
+}
+.table-main{
+   width: 500px;
+   padding: 20px 0 20px 20px;
+   font-size: 18px;
+   border-bottom: 1px solid #868686;
+   text-align: left;
+}
+.white{
+   color: #FFF;
+   font-size: 14px;
+   margin-left: 10px;
+}
+.grey{
+   color: gray;
+   font-size: 14px;
+}
+.dots{
+   width: 20px;
+   height: 20px;
+   margin-left: 350px;
+}
+.grey-dots{
+   background-image: url(img/dots.svg);
+   background-size: 25px;
+   background-repeat: no-repeat;
+   background-position-x: 470px;
+   background-position-y: 23px;
+}
+.table_2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   border: 1px solid #868686;
+   border-radius: 10px;
+   margin: 0 0 50px 140px;
+   border-spacing: 0;
+   max-width: 1040px;
+   max-height: 65pxк;
+}
+.table_3 {
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   border: 1px solid #868686;
+   border-radius: 10px;
+   margin: 0 0 50px 140px;
+   border-spacing: 0;
+   max-width: 1040px;
+   max-height: 65pxк;
+}
+
+.search {
+   position: absolute;
+   margin-top: 15px;
+   left: 930px;
+   width: 200px;
+   height: 15px;
+   padding: 10px 0 10px 30px;
+   border-radius: 5px;
+   border-style: none;
+   background-color: rgb(68, 68, 68);
+   outline: none;
+   color: white;
+   background-image: url(img/loupe.svg);
+   background-repeat: no-repeat;
+   background-size: 13px;
+   background-position: 10px;
+}
+.fileimg{
+   max-width: 15px;
+   max-height: 0pxк;
+}
+.filespan{
+   margin-left: 10px;
+}
