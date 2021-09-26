@@ -17,8 +17,8 @@ let roundingEverage = Math.round(avrgPrice * 100) / 100;
 let discount = Math.floor(Math.random() * 101);
 let discountSum = (sumPrice * (1 - discount/100)).toFixed(2);
 let profit = ((sumPrice / 2) - ((discount / 100) * sumPrice)).toFixed(2);
-console.log(`Maximun price: ${maxPrice}
-Minimun price: ${minPrice}
+console.log(`Max price: ${maxPrice}
+Min price: ${minPrice}
 Total price: ${sumPrice}
 Sum of Rounded prices: ${sumOfRounding}
 Rounded to hundreds: ${roundedToHundreds}
