@@ -27,4 +27,4 @@ Rest: ${sumOfTheRest}
 Everage: ${roundingEverage}
 Discount: ${discount}
 Total amount with discount: ${discountSum}
-profit: ${profit}`);
+Profit: ${profit}`);
