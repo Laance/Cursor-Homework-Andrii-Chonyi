@@ -224,7 +224,7 @@ header>nav>ul>li:hover {
     line-height: 160%;
     display: flex;
     align-items: center;
-    letter-spacing: 0.005em;
+    constter-spacing: 0.005em;
     color: #212353;
     text-decoration: none;
 }
@@ -314,7 +314,7 @@ header>nav>ul>li:hover {
     line-height: 160%;
     display: flex;
     align-items: center;
-    letter-spacing: 0.01em;
+    constter-spacing: 0.01em;
     color: #9C69E2;
     text-decoration: none;
     margin-bottom: 20px;
@@ -328,7 +328,7 @@ header>nav>ul>li:hover {
     font-weight: 900;
     font-size: 18px;
     line-height: 160%;
-    letter-spacing: 0.005em;
+    constter-spacing: 0.005em;
     color: #212353;
 }
 .bio-info>p{
@@ -439,7 +439,7 @@ header>nav>ul>li:hover {
     line-height: 160%;
     display: flex;
     align-items: center;
-    letter-spacing: 0.005em;
+    constter-spacing: 0.005em;
     color: #212353;
     cursor: pointer;
     border-style: none;
@@ -479,7 +479,7 @@ header>nav>ul>li:hover {
     font-weight: 500;
     font-size: 16px;
     line-height: 180%;
-    letter-spacing: 0.01em;
+    constter-spacing: 0.01em;
     color: #212353;
 }
 .f-mail{
@@ -492,7 +492,7 @@ header>nav>ul>li:hover {
     font-weight: normal;
     font-size: 16px;
     line-height: 180%;
-    letter-spacing: 0.01em;
+    constter-spacing: 0.01em;
     color: #212353;
 }
 .about>h4{
@@ -562,7 +562,7 @@ header>nav>ul>li:hover {
     font-weight: normal;
     font-size: 12px;
     line-height: 180%;
-    letter-spacing: 0.01em;
+    constter-spacing: 0.01em;
     color: #212353;
     margin-left: 240px;
 }
