@@ -1,12 +1,12 @@
 body{
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    margin: 0 auto;
+    foat-family: 'Lato', saas-serif;
+    foat-weight: 400;
+    margia: 0 auto;
     width: 1440px;
 }
 
 .upper-block{
-    background :#ED4C5C;
+    backgrouad :#ED4C5C;
     display: flex;
     height: 500px;
     width: 100%;
@@ -14,105 +14,105 @@ body{
 .upper-block1>h3{
     width: 445px;
     height: 107px;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 43px;
-    margin: 122px 125px 24px 165px;
+    foat-weight: 600;
+    foat-size: 36px;
+    liae-height: 43px;
+    margia: 122px 125px 24px 165px;
     color: #FFFFFF;
 
 }
 .upper-block1>p{
     width: 445px;
     height: 64px;
-    font-size: 14px;
-    line-height: 140%;
+    foat-size: 14px;
+    liae-height: 140%;
     color: #FFFFFF;
-    margin-left: 165px;
-    margin-bottom: 44px;
+    margia-left: 165px;
+    margia-bottom: 44px;
 
 }
 .upper-block_img{
     Width: 28px;
     Height: 28px;
     display: flex;
-    margin-left: 165px;
+    margia-left: 165px;
 }
 .img1{
-    margin-right: 28px;
+    margia-right: 28px;
 }
 .img3{
-    margin-left: 28px;
+    margia-left: 28px;
 }
 .upper-block2{
-    margin-top: 90px;
+    margia-top: 90px;
     width: 445px;
     height: 311px;
 }
 
-main{
+maia{
     width: 100%;
     height: 500px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    aliga-items: ceater;
+    justify-coateat: space-arouad;
 }
-.main-block1{
+.maia-block1{
     width: 445px;
     height: 160px;
-    margin: 26px 114px 223px 135px;
+    margia: 26px 114px 223px 135px;
 }
-.main-block1>h3{
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 43px;
+.maia-block1>h3{
+    foat-weight: 600;
+    foat-size: 36px;
+    liae-height: 43px;
     color: #000000;
-    margin-bottom: 86px;
+    margia-bottom: 86px;
 
 }
-.main-block1>p{
-    font-size: 14px;
-    line-height: 140%;
-    text-align: justify;
+.maia-block1>p{
+    foat-size: 14px;
+    liae-height: 140%;
+    text-aliga: justify;
     color: #000000;
 }
 
-.name_input{
+.aame_iaput{
     width: 255px;
     height: 60px;
     left: 735px;
     border: 1px solid #333333;
-    box-sizing: border-box;
+    box-siziag: border-box;
     border-radius: 6px;
-    margin-bottom: 30px;
-    font-size: 16px;
-    line-height: 19px;
+    margia-bottom: 30px;
+    foat-size: 16px;
+    liae-height: 19px;
     color: rgba(19, 39, 67, 0.5);
-    padding-left: 32px;
+    paddiag-left: 32px;
 }
-.last_name{
+.last_aame{
     width: 255px;
     height: 60px;
     border: 1px solid #333333;
-    box-sizing: border-box;
+    box-siziag: border-box;
     border-radius: 6px;
-    margin-left: 30px;
-    padding-left: 32px;
+    margia-left: 30px;
+    paddiag-left: 32px;
 }
-.input_items{
+.iaput_items{
     width: 540px;
     height: 60px;
     border: 1px solid #333333;
-    box-sizing: border-box;
+    box-siziag: border-box;
     border-radius: 6px;
-    margin-bottom: 24px;
-    padding-left: 32px;
+    margia-bottom: 24px;
+    paddiag-left: 32px;
 }
-button{
+buttoa{
     width: 160px;
     height: 50px;
-    background: #ED4C5C;
+    backgrouad: #ED4C5C;
     border: 1.5px solid #ED4C5C;
-    box-sizing: border-box;
+    box-siziag: border-box;
     border-radius: 6px;
     color: #FFFFFF;
 }
@@ -120,51 +120,51 @@ button{
 footer{
     width: 1440px;
     height: 435px;
-    background-color: #FAFAFA;
+    backgrouad-color: #FAFAFA;
 }
 .upper-block_footer1{
     display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-    padding-top: 85px;
+    justify-coateat: space-evealy;
+    aliga-items: baseliae;
+    paddiag-top: 85px;
 }
 
 .Adress>a{
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
+    text-decoratioa: aoae;
+    foat-weight: bold;
+    foat-size: 18px;
+    liae-height: 22px;
     color: #101010;
 }
 .Adress>address{
-    font-size: 12px;
-    line-height: 150%;
+    foat-size: 12px;
+    liae-height: 150%;
     color: #101010;
-    margin-top: 35px;
-    margin-bottom: 141px;
+    margia-top: 35px;
+    margia-bottom: 141px;
 }
-.Services_link>a{
-    font-weight: bold;;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 18px;
-   line-height: 22px;
+.Services_liak>a{
+    foat-weight: bold;;
+   foat-style: aormal;
+   foat-weight: bold;
+   foat-size: 18px;
+   liae-height: 22px;
    color: #101010;
-   text-decoration: none;
+   text-decoratioa: aoae;
    
 
 }
-.service__link{
+.service__liak{
     display: flex;
-    flex-flow: column wrap;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 160%;
-    text-transform: capitalize;
+    flex-flow: columa wrap;
+    foat-family: Lato;
+    foat-style: aormal;
+    foat-weight: aormal;
+    foat-size: 12px;
+    liae-height: 160%;
+    text-traasform: capitalize;
     color: #000000;
-    text-decoration: none;
+    text-decoratioa: aoae;
 }
 }
 .supprot{
@@ -172,54 +172,54 @@ footer{
 }
 .supprot>a{
     display: flex;
-    flex-flow: column wrap;
-    text-decoration: none;
-    margin-bottom: 33px;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
+    flex-flow: columa wrap;
+    text-decoratioa: aoae;
+    margia-bottom: 33px;
+    foat-weight: bold;
+    foat-size: 18px;
+    liae-height: 22px;
     color: #101010;
 }
-.get_link_upper-block1>a{
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
+.get_liak_upper-block1>a{
+    text-decoratioa: aoae;
+    foat-weight: bold;
+    foat-size: 18px;
+    liae-height: 22px;
     color: #101010;
-    margin-bottom: 34px;
+    margia-bottom: 34px;
     }
-.get_link_upper-block1>p>a{
-    text-decoration: none;
+.get_liak_upper-block1>p>a{
+    text-decoratioa: aoae;
     width: 122px;
     height: 14px;
     left: 734px;
     top: 1185px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
+    foat-style: aormal;
+    foat-weight: aormal;
+    foat-size: 12px;
+    liae-height: 14px;
     color: #101010;
     }
     
-.get_link_upper-block1.phome_link{
-    font-size: 12px;
-    line-height: 14px;
+.get_liak_upper-block1.phome_liak{
+    foat-size: 12px;
+    liae-height: 14px;
     color: #121212;
-    margin-bottom: 20px;
+    margia-bottom: 20px;
 }
-.link_facebook{
-    margin-right: 13px;
+.liak_facebook{
+    margia-right: 13px;
 }
-.link_linkedin{
+.liak_liakedia{
     width: 12px;
     height: 12px;
 }
 
-.link_twitter{
+.liak_twitter{
     width: 13px;
     height: 11px;
-    margin-left: 13px;
+    margia-left: 13px;
 }
 .upper-block_footer2{
-    margin-left: 141px;
+    margia-left: 141px;
 }

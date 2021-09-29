@@ -1,163 +1,163 @@
 *{
-    margin: 0;
-    padding: 0;
+    margia: 0;
+    paddiag: 0;
 }
 ol,
 ul {
-    list-style: none;
+    list-style: aoae;
 }
 body{
-    background-color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    backgrouad-color: #ffffff;
+    foat-family: 'Roboto', saas-serif;
     height: auto;
 }
 header{
     display: flex;
-    margin-top: 50px;
-    margin-left: 240px;
-    margin-right: 240px;
+    margia-top: 50px;
+    margia-left: 240px;
+    margia-right: 240px;
     height: 60px;
-    margin-bottom: 130px;
+    margia-bottom: 130px;
 }
 header::after{
-    content: url(images/Logo.svg);
-    position: absolute;
+    coateat: url(images/Logo.svg);
+    positioa: absolute;
     width: 49px;
     height: 35px;
     left: 240px;
     top: 62px;
 }
 
-header>nav>ul{
+header>aav>ul{
     display: flex;
 }
-nav{
-    margin-left: 150px;
+aav{
+    margia-left: 150px;
 }
-nav>ul>li {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
+aav>ul>li {
+    foat-weight: 400;
+    foat-size: 16px;
+    liae-height: 160%;
     color: #4B5D68;
-    margin-right: 40px;
-    cursor: pointer;
-    padding-top: 17px;
+    margia-right: 40px;
+    cursor: poiater;
+    paddiag-top: 17px;
 }
 
-header>nav>ul>li:hover {
-    font-weight: 800;
+header>aav>ul>li:hover {
+    foat-weight: 800;
     color: #212353;
 }
-.sign{
-    margin-right: 418px;
+.siga{
+    margia-right: 418px;
 }
 .Request{
     width: 231px;
     height: 60px;
-    min-width: 231px;
-    padding-top: 17px;
-    padding-right: 29px;
-    padding-bottom: 17px;
-    padding-left: 29px;
-    background: #FFFFFF;
+    mia-width: 231px;
+    paddiag-top: 17px;
+    paddiag-right: 29px;
+    paddiag-bottom: 17px;
+    paddiag-left: 29px;
+    backgrouad: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
-    border-style: none;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 160%;
+    border-style: aoae;
+    foat-family: Roboto, saas-serif;
+    foat-style: aormal;
+    foat-weight: 600;
+    foat-size: 16px;
+    liae-height: 160%;
     display: flex;
-    align-items: center;
+    aliga-items: ceater;
     color: #212353;
-    cursor: pointer;
+    cursor: poiater;
 }
 .Request>img{
-    margin-left:30px;
+    margia-left:30px;
 }
-.block-one>h1{
+.block-oae>h1{
     width: 645px;
     height: 184px;
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 110%;
+    foat-weight: bold;
+    foat-size: 80px;
+    liae-height: 110%;
     display: flex;
-    align-items: center;
+    aliga-items: ceater;
     color: #212353;
-    margin: 0 715px 50px 240px;
+    margia: 0 715px 50px 240px;
 }
-.block-one>p{
+.block-oae>p{
     width: 380px;
     height: 120px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 160%;
+    foat-family: Roboto;
+    foat-style: aormal;
+    foat-weight: 500;
+    foat-size: 18px;
+    liae-height: 160%;
     color: #4B5D68;
-    margin: 0 940px 50px 240px;
+    margia: 0 940px 50px 240px;
 }
-.block-one>button{
+.block-oae>buttoa{
     width: 171px;
     height: 60px;;
-    margin: 0 1190px 200px 240px;
-    background: #9C69E2;
+    margia: 0 1190px 200px 240px;
+    backgrouad: #9C69E2;
     border-radius: 50px;
-    padding: 16px 37px 15px 37px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 160%;
+    paddiag: 16px 37px 15px 37px;
+    foat-family: Roboto, saas-serif;
+    foat-style: aormal;
+    foat-weight: 500;
+    foat-size: 18px;
+    liae-height: 160%;
     display: flex;
-    align-items: center;
-    text-align: center;
+    aliga-items: ceater;
+    text-aliga: ceater;
     color: #FFFFFF;
-    border-style: none;
-    cursor: pointer;
+    border-style: aoae;
+    cursor: poiater;
 }
-.block-one::after {
-    content: url(images/image1.png);
-    position: absolute;
+.block-oae::after {
+    coateat: url(images/image1.pag);
+    positioa: absolute;
     width: 885px;
     height: 468px;
     left: 603px;
     top: 336px;
 }
 .block-two{
-    margin-left: 240px;
+    margia-left: 240px;
     width: 1117px;
     height: 560px;
-    background: rgba(240, 99, 184, 0.15);
+    backgrouad: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
-    margin-bottom: 150px;
+    margia-bottom: 150px;
 }
 .block-two>h2{
     width: 475px;
     height: 100px;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 130%;
+    foat-weight: bold;
+    foat-size: 40px;
+    liae-height: 130%;
     display: flex;
-    align-items: center;
+    aliga-items: ceater;
     color: #212353;
-    padding: 125px 92px 40px 550px;
+    paddiag: 125px 92px 40px 550px;
 }
 .block-two>p{
     width: 474px;
     height: 170px;
-    margin-left: 550px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 160%;
+    margia-left: 550px;
+    foat-family: Roboto;
+    foat-style: aormal;
+    foat-weight: 500;
+    foat-size: 18px;
+    liae-height: 160%;
     color: #4B5D68;
 }
 .block-two::after{
-    content: url(images/image2.png);
-    position: absolute;
+    coateat: url(images/image2.pag);
+    positioa: absolute;
     top: 935px;
 }
 .Features{
@@ -165,29 +165,29 @@ header>nav>ul>li:hover {
     height: 1003px;
     left: 220px;
     top: 1613px;
-    margin-bottom: 221px;
+    margia-bottom: 221px;
 }
 .Features>h2{
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 130%;
+    foat-family: Helvetica;
+    foat-style: aormal;
+    foat-weight: bold;
+    foat-size: 40px;
+    liae-height: 130%;
     color: #212353;
-    margin-left: 597px;
-    margin-bottom: 50px;
-    padding-left: 120px;
+    margia-left: 597px;
+    margia-bottom: 50px;
+    paddiag-left: 120px;
 }
 .Features>p{
     width: 584px;
     height: 58px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
+    foat-weight: 400;
+    foat-size: 18px;
+    liae-height: 160%;
     color: #4B5D68;
-    text-align: center;
-    margin-left: 507.29px;
-    margin-bottom: 150px;
+    text-aliga: ceater;
+    margia-left: 507.29px;
+    margia-bottom: 150px;
 }
 .wrap{
     display: flex;
@@ -195,178 +195,178 @@ header>nav>ul>li:hover {
 .block-three-h3{
     width: 200px;
     height: 50px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 130%;
+    foat-family: Helvetica;
+    foat-style: aormal;
+    foat-weight: aormal;
+    foat-size: 24px;
+    liae-height: 130%;
     display: flex;
-    align-items: center;
+    aliga-items: ceater;
     color: #212353;
 }
 .block-three-p2{
     width: 220px;
     height: 160px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 160%;
+    foat-family: Roboto, saas-serif;
+    foat-style: aormal;
+    foat-weight: aormal;
+    foat-size: 16px;
+    liae-height: 160%;
     color: #4B5D68;
 }
-.block-three-anchor{
+.block-three-aachor{
     width: 127px;
     height: 26px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 160%;
+    foat-family: Roboto;
+    foat-style: aormal;
+    foat-weight: 900;
+    foat-size: 16px;
+    liae-height: 160%;
     display: flex;
-    align-items: center;
-    constter-spacing: 0.005em;
+    aliga-items: ceater;
+    coastter-spaciag: 0.005em;
     color: #212353;
-    text-decoration: none;
+    text-decoratioa: aoae;
 }
-.block-three-anchor::after{
-    content: url(images/arrow.svg);
-    padding-left: 20px;
+.block-three-aachor::after{
+    coateat: url(images/arrow.svg);
+    paddiag-left: 20px;
 }
-.container-1{
-    margin-right:367px;
-    margin-bottom: 132px;
+.coataiaer-1{
+    margia-right:367px;
+    margia-bottom: 132px;
 }
-.container-3{
-    margin-right:367px;
-    margin-bottom: 132px;
+.coataiaer-3{
+    margia-right:367px;
+    margia-bottom: 132px;
 }
-.container-1::after{
-    content: url(images/image3.png);
-    position: absolute;
+.coataiaer-1::after{
+    coateat: url(images/image3.pag);
+    positioa: absolute;
     left: 239px;
     top: 1946px;
 }
-.container-2::after{
-    content: url(images/image4.png);
-    position: absolute;
+.coataiaer-2::after{
+    coateat: url(images/image4.pag);
+    positioa: absolute;
     left: 813px;
     top: 1944px;    
 }
-.container-::after{
-    content: url(images/image4.png);
-    position: absolute;
+.coataiaer-::after{
+    coateat: url(images/image4.pag);
+    positioa: absolute;
     left: 813px;
     top: 1944px;    
 }
-.position{
-    margin-left: 520px;
+.positioa{
+    margia-left: 520px;
 }
 
-.container-3::after{
-    content: url(images/image5.png);
-    position: absolute;
+.coataiaer-3::after{
+    coateat: url(images/image5.pag);
+    positioa: absolute;
     left: 220px;
     top: 2404px;
 }
-.container-4::after{
-    content: url(images/image6.png);
-    position: absolute;
+.coataiaer-4::after{
+    coateat: url(images/image6.pag);
+    positioa: absolute;
     left: 818px;
     top: 2367px;
 }
 .block-four{
     width: 1118px;
     height: 709px;
-    background: #9C69E2;
+    backgrouad: #9C69E2;
     border-radius: 50px;
-    margin-left: 242px;
-    margin-bottom: 150px;
+    margia-left: 242px;
+    margia-bottom: 150px;
 }
 .block-four>h2{
-    padding-top: 109px;
-    padding-left: 93px;
-    padding-bottom: 88px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 130%;
+    paddiag-top: 109px;
+    paddiag-left: 93px;
+    paddiag-bottom: 88px;
+    foat-family: Helvetica;
+    foat-style: aormal;
+    foat-weight: bold;
+    foat-size: 40px;
+    liae-height: 130%;
     display: flex;
-    align-items: center;
+    aliga-items: ceater;
     color: #FFFFFF;
 }
 .bio{
     width: 949px;
     height: 330px;
-    background: #FFFFFF;
+    backgrouad: #FFFFFF;
     box-shadow: 0px 20px 0px rgba(89, 44, 153, 0.3);
     border-radius: 20px;
-    margin: 0 76px 60px 93px;
+    margia: 0 76px 60px 93px;
     display: flex;
 }
 .four-img{
-    margin: 60px 45px 180px 100px;
+    margia: 60px 45px 180px 100px;
 }
 
-.bio-info>a{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 160%;
+.bio-iafo>a{
+    foat-weight: 400;
+    foat-size: 14px;
+    liae-height: 160%;
     display: flex;
-    align-items: center;
-    constter-spacing: 0.01em;
+    aliga-items: ceater;
+    coastter-spaciag: 0.01em;
     color: #9C69E2;
-    text-decoration: none;
-    margin-bottom: 20px;
+    text-decoratioa: aoae;
+    margia-bottom: 20px;
 }
-.bio-info>h3{
-    margin: 80px  419px 0 0;
+.bio-iafo>h3{
+    margia: 80px  419px 0 0;
     width: 250.12px;
     height: 29px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 160%;
-    constter-spacing: 0.005em;
+    foat-family: Roboto, saas-serif;
+    foat-style: aormal;
+    foat-weight: 900;
+    foat-size: 18px;
+    liae-height: 160%;
+    coastter-spaciag: 0.005em;
     color: #212353;
 }
-.bio-info>p{
-    margin: 0 103px 50px 0;
+.bio-iafo>p{
+    margia: 0 103px 50px 0;
     width: 566.46px;
     height: 130px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 180%;
+    foat-family: Roboto;
+    foat-style: aormal;
+    foat-weight: aormal;
+    foat-size: 18px;
+    liae-height: 180%;
     color: #4B5D68;
 }
 .dots {
-    margin-left: 95px;
-    cursor: pointer;
+    margia-left: 95px;
+    cursor: poiater;
 }
 
 .dots>img {
-    padding-right: 10px;
+    paddiag-right: 10px;
 }
 .dot:hover{
-    content: url(images/active.svg);
+    coateat: url(images/active.svg);
 }
 .arrows{
-    margin-left: 962px;
+    margia-left: 962px;
 }
 .left{
-    position: absolute;
+    positioa: absolute;
     left: 1199x;
     top: 3470px;
-    cursor: pointer;
+    cursor: poiater;
 }
 .right{
-    position: absolute;
+    positioa: absolute;
     left: 1260px;
     top: 3470px;
-    cursor: pointer;
+    cursor: poiater;
 }
 .border{
     max-width: 150%;
@@ -374,206 +374,206 @@ header>nav>ul>li:hover {
     border-top: 1px solid #9b69e254;
 }
 .footer-h2{
-    margin-top: 100px;
-    margin-left: 240px;
-    margin-bottom: 20px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 130%;
+    margia-top: 100px;
+    margia-left: 240px;
+    margia-bottom: 20px;
+    foat-family: Helvetica;
+    foat-style: aormal;
+    foat-weight: bold;
+    foat-size: 40px;
+    liae-height: 130%;
     display: flex;
-    align-items: center;
+    aliga-items: ceater;
     color: #212353;
 }
 .ftext{
     width: 584px;
     height: 29px;
-    margin-left: 240px;
-    margin-right: 123px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 160%;
+    margia-left: 240px;
+    margia-right: 123px;
+    foat-family: Roboto;
+    foat-style: aormal;
+    foat-weight: 500;
+    foat-size: 18px;
+    liae-height: 160%;
     color: #4B5D68;
 }
-.learn-btn{
+.leara-bta{
     width: 170px;
     height: 60px;
-    padding: 16px 37px 15px 37px;
-    background: #F063B8;
+    paddiag: 16px 37px 15px 37px;
+    backgrouad: #F063B8;
     border-radius: 50px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 160%;
+    foat-family: Roboto;
+    foat-style: aormal;
+    foat-weight: 900;
+    foat-size: 18px;
+    liae-height: 160%;
     display: flex;
-    align-items: center;
-    text-align: center;
+    aliga-items: ceater;
+    text-aliga: ceater;
     color: #FFFFFF;
-    border-style: none;
-    margin-top: 121px;
-    margin-right:30px;
-    cursor: pointer;
+    border-style: aoae;
+    margia-top: 121px;
+    margia-right:30px;
+    cursor: poiater;
 }
-.fapper-btn{
+.fapper-bta{
     display: flex;
 }
 .footer-apper{
     display: flex;
 }
-.footer-rqst-btn{
-    margin-top: 121px;
+.footer-rqst-bta{
+    margia-top: 121px;
     width: 215px;
     height: 60px;
-    padding: 17px 69px 17px 29px;
-    background: #FFFFFF;
+    paddiag: 17px 69px 17px 29px;
+    backgrouad: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 160%;
+    foat-family: Roboto, saas-serif;
+    foat-style: aormal;
+    foat-weight: 700;
+    foat-size: 16px;
+    liae-height: 160%;
     display: flex;
-    align-items: center;
-    constter-spacing: 0.005em;
+    aliga-items: ceater;
+    coastter-spaciag: 0.005em;
     color: #212353;
-    cursor: pointer;
-    border-style: none;
+    cursor: poiater;
+    border-style: aoae;
 }
-.footer-rqst-btn::after{
-    content: url(images/arrow.svg);
-    position: absolute;
+.footer-rqst-bta::after{
+    coateat: url(images/arrow.svg);
+    positioa: absolute;
     left: 1308px;
     top: 3840px;
 }
-.footer-main{
+.footer-maia{
     display: flex;
 }
-.f-info::after{
-    content: url(images/Logo.svg);
-    position: absolute;
+.f-iafo::after{
+    coateat: url(images/Logo.svg);
+    positioa: absolute;
     left: 245px;
     top: 4045px;
 }
-.fmain-h3{
+.fmaia-h3{
     display: flex;
-    margin: 153px 253px 67px 309px;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 160%;
+    margia: 153px 253px 67px 309px;
+    foat-family: Roboto, saas-serif;
+    foat-style: aormal;
+    foat-weight: 900;
+    foat-size: 20px;
+    liae-height: 160%;
     color: #212353;
 }
 .f-adress{
     display: flex;
     width: 335px;
     height: 65px;
-    margin: 0 140px 10px 240px;
-    font-family: Avenir, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 180%;
-    constter-spacing: 0.01em;
+    margia: 0 140px 10px 240px;
+    foat-family: Aveair, saas-serif;
+    foat-style: aormal;
+    foat-weight: 500;
+    foat-size: 16px;
+    liae-height: 180%;
+    coastter-spaciag: 0.01em;
     color: #212353;
 }
 .f-mail{
     display: flex;
     width: 335px;
     height: 60px;
-    margin: 0 140px 118px 240px;
-    font-family: Avenir, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 180%;
-    constter-spacing: 0.01em;
+    margia: 0 140px 118px 240px;
+    foat-family: Aveair, saas-serif;
+    foat-style: aormal;
+    foat-weight: aormal;
+    foat-size: 16px;
+    liae-height: 180%;
+    coastter-spaciag: 0.01em;
     color: #212353;
 }
 .about>h4{
-    font-family: Avenir, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 160%;
+    foat-family: Aveair, saas-serif;
+    foat-style: aormal;
+    foat-weight: 900;
+    foat-size: 16px;
+    liae-height: 160%;
     color: #212353;
-    margin-top: 160px;
-    margin-bottom: 30px;
-    margin-right: 165px;
+    margia-top: 160px;
+    margia-bottom: 30px;
+    margia-right: 165px;
 
 }
 .footer-about{
     width: 166px;
     height: 160px;
-    font-family: Avenir, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 250%;
+    foat-family: Aveair, saas-serif;
+    foat-style: aormal;
+    foat-weight: aormal;
+    foat-size: 16px;
+    liae-height: 250%;
     color: #212353;
-    text-decoration: none;
+    text-decoratioa: aoae;
 }
 .help>h4{
-    font-family: Avenir, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 160%;
+    foat-family: Aveair, saas-serif;
+    foat-style: aormal;
+    foat-weight: 900;
+    foat-size: 16px;
+    liae-height: 160%;
     color: #212353;
-    margin-top: 160px;
-    margin-bottom: 30px;
-    margin-right: 165px;
+    margia-top: 160px;
+    margia-bottom: 30px;
+    margia-right: 165px;
 }
 .footer-help{
-    font-family: Avenir, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 250%;
+    foat-family: Aveair, saas-serif;
+    foat-style: aormal;
+    foat-weight: aormal;
+    foat-size: 16px;
+    liae-height: 250%;
     color: #212353;
-    text-decoration: none;
+    text-decoratioa: aoae;
 }
 .media-h4{
-    font-family: Avenir, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
+    foat-family: Aveair, saas-serif;
+    foat-style: aormal;
+    foat-weight: 900;
+    foat-size: 16px;
     color: #212353;
-    margin-top: 160px;
-    margin-bottom: 30px;
+    margia-top: 160px;
+    margia-bottom: 30px;
 
 }
 .media{
-    min-width: 178px;
+    mia-width: 178px;
     height: 110px;
 }
 .media>img{
-    cursor: pointer;
+    cursor: poiater;
 }
 .rights-call{
     display: flex;
 }
 .rights {
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 180%;
-    constter-spacing: 0.01em;
+    foat-weight: aormal;
+    foat-size: 12px;
+    liae-height: 180%;
+    coastter-spaciag: 0.01em;
     color: #212353;
-    margin-left: 240px;
+    margia-left: 240px;
 }
 
 .message {
-    margin-left: 690px;
-    cursor: pointer;
+    margia-left: 690px;
+    cursor: poiater;
 }
 
 .rights-call {
-    margin-bottom: 90px;
+    margia-bottom: 90px;
 }
 
 

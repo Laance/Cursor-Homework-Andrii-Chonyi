@@ -1,343 +1,343 @@
 body{
-    background :#E5E5E5;
+    backgrouad :#E5E5E5;
 }
 
 h1{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 110px;
-    line-height: 133px;
+    foat-family: Iater;
+    foat-style: aormal;
+    foat-weight: 900;
+    foat-size: 110px;
+    liae-height: 133px;
     display: flex;
-    align-items: center;
+    aliga-items: ceater;
     color: #0B2239;
 }
-.Banner_1 {
-    font-family: Inter, sans-serif;
+.Baaaer_1 {
+    foat-family: Iater, saas-serif;
     display: flex;
     width: 1440px;
     height: 72px;
     left: 0px;
     top: 0px;
-    background: #0B2239;
+    backgrouad: #0B2239;
 }
 
-.Banner_1>p {
+.Baaaer_1>p {
     width: 922px;
     height: 40px;
     color: #FFF;
-    margin: 16px 32px 16px 120px;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 20px;
+    margia: 16px 32px 16px 120px;
+    foat-size: 13px;
+    foat-weight: aormal;
+    liae-height: 20px;
 }
 
-.Banner_1>a {
+.Baaaer_1>a {
     color: #4AD295;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 20px;
+    foat-weight: 600;
+    foat-size: 12px;
+    liae-height: 20px;
     width: 106px;
     height: 36px;
-    margin: 26px 20px 26px 0;
+    margia: 26px 20px 26px 0;
 }
-.Banner_1>button {
+.Baaaer_1>buttoa {
     color: #FFF;
-    background-color: #4AD295;
-    padding: 8px 10px;
+    backgrouad-color: #4AD295;
+    paddiag: 8px 10px;
     width: 130px;
     height: 36px;
     border-radius: 2px;
-    border-style: none;
-    font-size: 12px;
-    font-weight: 600;
-    margin: 18px 120px 18px 0;
+    border-style: aoae;
+    foat-size: 12px;
+    foat-weight: 600;
+    margia: 18px 120px 18px 0;
 }
-.Banner_2{
-    margin-top: 25px;
+.Baaaer_2{
+    margia-top: 25px;
     display: flex;
-    background-color: #2B2627;
+    backgrouad-color: #2B2627;
     width: 1440px;
     height: 52px;
-    background: #2B2627;
-    justify-content: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 20px;
+    backgrouad: #2B2627;
+    justify-coateat: ceater;
+    foat-family: 'Iater', saas-serif;
+    foat-weight: aormal;
+    foat-size: 13px;
+    liae-height: 20px;
 }
-.Banner_2>img{
+.Baaaer_2>img{
     max-width: 16px;
 }
-.Banner_2>p{
-    margin: 16px 20px 16px 8px;
+.Baaaer_2>p{
+    margia: 16px 20px 16px 8px;
     color: #FFF;
 }
 
-.Banner_2>p>a{
+.Baaaer_2>p>a{
     color: #FFF;
-    cursor: pointer;
+    cursor: poiater;
 }
-.Banner_3{
+.Baaaer_3{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: static;
+    flex-directioa: row;
+    justify-coateat: ceater;
+    aliga-items: ceater;
+    positioa: static;
     width: 560px;
     height: 72px;
     left: 0px;
     top: 0px;
-    margin-top: 72px;
-    background: #FFFFFF;
+    margia-top: 72px;
+    backgrouad: #FFFFFF;
     box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
     border-radius: 16px;
 }
-.Banner_3>p{
-    position: static;
+.Baaaer_3>p{
+    positioa: static;
     width: 347px;
     height: 40px;
     left: 62px;
     top: 16px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;  
+    foat-family: Iater;
+    foat-style: aormal;
+    foat-weight: aormal;
+    foat-size: 14px;
+    liae-height: 20px;  
 }
-.Banner_3>img{
+.Baaaer_3>img{
     max-width: 36px;
-    margin: 18px 10px 18px 16px;
+    margia: 18px 10px 18px 16px;
 }
-.Banner_3>p>a{
-    color: pink;
+.Baaaer_3>p>a{
+    color: piak;
 }
-.Banner_3>.decline-button{
+.Baaaer_3>.decliae-buttoa{
     width: 63px;
     height: 28px;
-    background: rgba(13, 12, 34, 0.05);
+    backgrouad: rgba(13, 12, 34, 0.05);
     border-radius: 8px;
-    border-style: none;
-    padding: 4px 10px;
-    margin: 22px 10px 22px 0;
-    font-family: Inter;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 20px;
+    border-style: aoae;
+    paddiag: 4px 10px;
+    margia: 22px 10px 22px 0;
+    foat-family: Iater;
+    foat-weight: 500;
+    foat-size: 12px;
+    liae-height: 20px;
     color: #0D0C22;
 }
-.Banner_3>.allow-button{
+.Baaaer_3>.allow-buttoa{
     width: 52px;
     height: 28px;
-    background-color: #EA4C89;
+    backgrouad-color: #EA4C89;
     border-radius: 8px;
-    border-style: none;
-    margin: 22px 16px 22px 0;
-    padding: 4px 10px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 20px;
+    border-style: aoae;
+    margia: 22px 16px 22px 0;
+    paddiag: 4px 10px;
+    foat-family: Iater;
+    foat-style: aormal;
+    foat-weight: 500;
+    foat-size: 12px;
+    liae-height: 20px;
     color: #FFFFFF;
 }
-.Banner_4 {
-    font-family: Roboto, sans-serif;
-    margin-top: 24px;
+.Baaaer_4 {
+    foat-family: Roboto, saas-serif;
+    margia-top: 24px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-directioa: row;
+    justify-coateat: ceater;
+    aliga-items: ceater;
     width: 560px;
     height: 64px;
-    background: #26262B;
+    backgrouad: #26262B;
     box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
     border-radius: 10px;
 }
 
-.Banner_4>p {
+.Baaaer_4>p {
     width: 469px;
     height: 40px;
     left: 16px;
     top: 12px;
     color: #FFFFFF;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 20px;
-    margin: 12px 10px 12px 16px;
+    foat-weight: aormal;
+    foat-size: 12px;
+    liae-height: 20px;
+    margia: 12px 10px 12px 16px;
 }
 
-.Banner_4>p>a {
-    color: orange;
+.Baaaer_4>p>a {
+    color: oraage;
 }
 
-.Banner_4>button {
+.Baaaer_4>buttoa {
     width: 49px;
     height: 28px;
     left: 495px;
     top: 18px;
-    background: #FFFFFF;
+    backgrouad: #FFFFFF;
     border-radius: 8px;
-    border-style: none;
-    margin: 18px 16px 18px 0;
-    padding: 4px 10px;
-    font-size: 12px;
-    line-height: 20px;
+    border-style: aoae;
+    margia: 18px 16px 18px 0;
+    paddiag: 4px 10px;
+    foat-size: 12px;
+    liae-height: 20px;
 }
-.Banner_5-8{
+.Baaaer_5-8{
     display: flex;
     max-width: 760px;
     flex-wrap: wrap;
-    margin-top: 72px;
+    margia-top: 72px;
 }
 
- .Banner_5{
-    font-family: Roboto;
+ .Baaaer_5{
+    foat-family: Roboto;
     width: 360px;
     height: 206px;
-    background: rgba(28, 37, 64, 0.95);
+    backgrouad: rgba(28, 37, 64, 0.95);
     box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
     border-radius: 6px;
-    border-style: none;
-    margin-right: 40px;
-    margin-bottom: 72px;
+    border-style: aoae;
+    margia-right: 40px;
+    margia-bottom: 72px;
  }
- .Banner_5>h4{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+ .Baaaer_5>h4{
+    foat-weight: 500;
+    foat-size: 16px;
+    liae-height: 20px;
     color: #FFFFFF;
-    margin-left: 24px; 
+    margia-left: 24px; 
 }
-.Banner_5>p>a{
+.Baaaer_5>p>a{
     color: #FFFFFF;
-    cursor: pointer;
+    cursor: poiater;
 }
 
-.Banner_5>p{
+.Baaaer_5>p{
     width: 312px;
-    font-size: 14px;
-    line-height: 20px;
+    foat-size: 14px;
+    liae-height: 20px;
     color: #FFFFFF;
-    margin-left: 24px;
+    margia-left: 24px;
 }
-.Banner_5>span{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
+.Baaaer_5>spaa{
+    foat-weight: 500;
+    foat-size: 14px;
+    liae-height: 16px;
+    text-aliga: ceater;
     color: #FFFFFF;
-    margin: 24px 67px 32px 24px;
+    margia: 24px 67px 32px 24px;
 }
-.Banner_5>a>button{
+.Baaaer_5>a>buttoa{
     width: 85px;
     height: 32px;
-    background: #09B3AF;
+    backgrouad: #09B3AF;
     border-radius: 6px;
-    border-style: none;
+    border-style: aoae;
     color: #FFFFFF;
 }
- .Banner_6{
+ .Baaaer_6{
     width: 360px;
     height: 170px;
-    background: #FFFFFF;
+    backgrouad: #FFFFFF;
     box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
     border-radius: 16px;
  }
- .Banner_6>h3{
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+ .Baaaer_6>h3{
+    foat-family: Roboto;
+    foat-weight: 500;
+    foat-size: 16px;
+    liae-height: 20px;
     color: #0F181D;
-    margin-left: 10px;
+    margia-left: 10px;
  }
- .Banner_6>p{
-    font-size: 14px;
-    line-height: 20px;
-    color: #687F8C; margin:16px;
+ .Baaaer_6>p{
+    foat-size: 14px;
+    liae-height: 20px;
+    color: #687F8C; margia:16px;
  }
- .Banner_6>a>button{
+ .Baaaer_6>a>buttoa{
     width: 160px;
     height: 32px;
-    font-size: 14px;
+    foat-size: 14px;
     border-radius: 6px;
-    border-style: none;
+    border-style: aoae;
     color: #687F8C;
-    margin: 0px 8px 16px 16px;
+    margia: 0px 8px 16px 16px;
  }
- .Banner_6>button{
+ .Baaaer_6>buttoa{
     width: 160px;
     height: 32px;
-    background: #40C1A7;
+    backgrouad: #40C1A7;
     border-radius: 6px;
-    border-style: none;
+    border-style: aoae;
     color: #FFFFFF;
  }
- .Banner_7{
+ .Baaaer_7{
     width: 320px;
     height: 260px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
+    backgrouad: liaear-gradieat(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
     display: upper-block;
     border-radius: 20px;
-    margin-right: 40px;
+    margia-right: 40px;
     
  }
- .Banner_7>h2{
-    font-family: Inter, sans-serif;
-    font-weight: 900;
-    font-size: 28px;
-    line-height: 48px;
-    text-align: center;
+ .Baaaer_7>h2{
+    foat-family: Iater, saas-serif;
+    foat-weight: 900;
+    foat-size: 28px;
+    liae-height: 48px;
+    text-aliga: ceater;
     color: #15295A;;
  }
- .Banner_7>p{
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
+ .Baaaer_7>p{
+    foat-size: 16px;
+    liae-height: 24px;
+    text-aliga: ceater;
     color: #15295A;
-    margin: 0 32px 32px 32px;
+    margia: 0 32px 32px 32px;
  }
- .Banner_7 >a>button{
-    background: #4A7EFF;
+ .Baaaer_7 >a>buttoa{
+    backgrouad: #4A7EFF;
     border-radius: 43px;
-    border-style: none;
+    border-style: aoae;
     width: 121px;
     height: 44px;
-    text-align: center;
-    margin-left: 100px;
+    text-aliga: ceater;
+    margia-left: 100px;
     color: #FFFFFF;
  }
 
-.Banner_8{
+.Baaaer_8{
     width: 320px;
     height: 137px;
-    background: #FFFFFF;
+    backgrouad: #FFFFFF;
     border-radius: 4px;
-    display: inline-upper-block;}
-.Banner_8>p{
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
+    display: ialiae-upper-block;}
+.Baaaer_8>p{
+    foat-family: Roboto, saas-serif;
+    foat-size: 14px;
+    liae-height: 20px;
     color: #000000;
-    margin: 16px 16px 20px 16px;
+    margia: 16px 16px 20px 16px;
 }
-.Banner_8>a{
+.Baaaer_8>a{
     color: #6666FF;
-    text-decoration: solid;
-    font-weight: 500;
-    font-size: 14px;
-    margin-left: 20px;
+    text-decoratioa: solid;
+    foat-weight: 500;
+    foat-size: 14px;
+    margia-left: 20px;
 }
-.Banner_8>a>button{
-    background: #6666FF;
+.Baaaer_8>a>buttoa{
+    backgrouad: #6666FF;
     border-radius: 4px;
-    border-style: none;
+    border-style: aoae;
     width: 64px;
     height: 33px;
-    font-family: SF Pro Text;
-    font-size: 14px;
-    line-height: 17px;
-    margin-left: 100px;
+    foat-family: SF Pro Text;
+    foat-size: 14px;
+    liae-height: 17px;
+    margia-left: 100px;
     color: #FFFFFF;
 }
