@@ -2,34 +2,43 @@ const students = ["Олександр", "Ігор", "Олена", "Іра", "О�
 const themes = ["Диференційне рівняння", "Теорія автоматів", "Алгоритми і структури даних"];
 const marks = [4, 5, 5, 3, 4, 5];
 
-const getTeams = (studentsTeams) => {
-    const Teams = [];
-    Teams.push([students[0]].concat(students[2]));
-    Teams.push([students[1]].concat(students[3]));
-    Teams.push([students[4]].concat(students[5]));
-    return Teams;
+const getTeams = (students) => {
+    const teams = [];
+    const man = [];
+    const woman = [];
+    for (let student of students){
+        if (student.endsWith("а" || "я")) {
+            woman.push(student)
+        } else {
+            man.push(student)
+        }
+    }
+    for (let i = 0; i < man.length; i++) {
+        teams.push([man[i], woman[i]])
+    }
+    return teams;
 };
 
 const studentsGroups = getTeams(students);
 console.log(studentsGroups);
 
-const getTeamThemes = (student, studentsThemes) => {
+const getTeamThemes = (student) => {
     const teamThemes = [];
-    teamThemes.push([student[0][0] + ' + ' + student[0][1]].concat(studentsThemes[0]));
-    teamThemes.push([student[1][0] + ' + ' + student[1][1]].concat(studentsThemes[1]));
-    teamThemes.push([student[2][0] + ' + ' + student[2][1]].concat(studentsThemes[2]));
+    for (let i = 0; i < themes.length; i++) {
+        teamThemes.push([student[i][0] + " + " + student[i][1], themes[i]])
+    }
     return teamThemes;
 };
 
-const teamThemes = getTeamThemes(studentsGroups, themes);
+const teamThemes = getTeamThemes(studentsGroups);
 console.log(teamThemes);
 
 const getStudentsMarks = (students, stdMark) => {
-    const Mark = [];
+    const mark = [];
     for(let i = 0; i < students.length; i++){
-        Mark.push([students[i]].concat(stdMark[i]));
+        mark.push([students[i]].concat(stdMark[i]));
     }
-    return Mark;
+    return mark;
 };
 
 const getMark = getStudentsMarks(students, marks);
