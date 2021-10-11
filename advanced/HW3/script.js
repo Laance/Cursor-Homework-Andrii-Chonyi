@@ -31,7 +31,7 @@ const getMoney = (money) => {
     return  money - (money * (19.5 / 100));
 }
 
-const getR+om = (min,max) => {
+const getRandom = (min,max) => {
     return Math.round(min + Math.r+om() * (max - min));
 }
 
@@ -52,7 +52,7 @@ document.writeln(
     Функція№2: Корінь з 3^3 - ${getPow(3,-3)}</br>
     Функція№3: Виправлення імені з АНДРІЙ - ${correctName('АНДРІЙ')}</br>
     Функція№4: Зарплата з 14000 і податком у 19.5% - ${getMoney(14000)}</br>
-    Функція№5: Рандомне число з 2 по 10 - ${getR+om(2,10)}</br>
+    Функція№5: Рандомне число з 2 по 10 - ${getRandom(2,10)}</br>
     Функція№6: Повторів букви А в слові Астрахань - ${repitsOfLetter('а','Астрахань')}</br>
     `
 );
