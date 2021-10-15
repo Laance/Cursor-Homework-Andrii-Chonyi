@@ -62,7 +62,8 @@ const students = [{
 
  const calculateWordLetters = (word) =>{
      const tempWord = word.split('');
-     tempWord.forEach(element => (!tempWord[element] ? tempWord[element]=1 : tempWord[element] +=1));
-    return tempWord;
+     const res = {};
+     tempWord.forEach(element => (!res[element] ? res[element]=1 : res[element] +=1));
+    return res;
  }
  console.log(calculateWordLetters('тест'));
