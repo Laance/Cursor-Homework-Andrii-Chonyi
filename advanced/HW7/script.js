@@ -24,6 +24,7 @@ const students = [{
     }
   }];
 
+  
   const getSubjects = (student) => {
     return Object.keys(student.subjects)
     .map((subj) => subj[0].toUpperCase() + subj.slice(1).toLowerCase()
