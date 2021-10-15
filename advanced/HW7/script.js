@@ -66,4 +66,4 @@ const students = [{
      tempWord.forEach(element => (!res[element] ? res[element]=1 : res[element] +=1));
     return res;
  }
- console.log(calculateWordLetters('тест'));
+ console.log('Calculate:', calculateWordLetters('тест'));
