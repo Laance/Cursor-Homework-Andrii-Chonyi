@@ -58,7 +58,7 @@ const students = [{
  const getBestStudent = (students) => {
      return students.reduce((accum, index) => getAverageMark(accum) > getAverageMark(index)? accum : index).name
  }
- console.log('Best student is:', getBestStudent(students));
+ console.log('Best  student is:', getBestStudent(students));
 
  const calculateWordLetters = (word) =>{
      const tempWord = word.split('');
