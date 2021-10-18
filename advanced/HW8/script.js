@@ -21,9 +21,11 @@ const getMySalary = function() {
     const minS = 1500;
     const maxS = 2000;
     const result = {};
-    result.salary = Math.round(minS + Math.random() * (maxS - minS));
-    result.taxes = result.salary * this.tax;
-    result.profit = result.salary - this.tax * result.salary;
-    return result;
+    
+    return {
+        salary: salary = Math.round(minS + Math.random() * (maxS - minS)),
+        taxes: taxes = salary * this.tax,
+        profit: prifit = salary - this.tax * salary
+    };
 }
 setInterval(() => console.log(getMySalary.call(litva)), 10000);
