@@ -32,7 +32,7 @@ const students = [{
   }
   console.log('Subjects:', getSubjects(students[0]));
 
-  const getAverageMark = (student) =>{
+  const getAvrgMark = (student) =>{
       const marks = [];
       let avrgMarks = 0;
       for (const key in student.subjects){
@@ -41,12 +41,12 @@ const students = [{
     }
     return avrgMarks.toFixed(2);
     }    
-  console.log('Avrgmark:', getAverageMark(students[0]));
+  console.log('Avrgmark:', getAvrgMark(students[0]));
 
   const getStudentInfo = (student) =>{
       return {course: student.course,
               name: student.name,
-              averageMark: getAverageMark(student)
+              averageMark: getAvrgMark(student)
       }
   }
   console.log('Info', getStudentInfo(students[0]));
@@ -57,7 +57,7 @@ const students = [{
  console.log('Sorted names:', getStudentsNames(students));
 
  const getBestStudent = (students) => {
-     return students.reduce((accum, index) => getAverageMark(accum) > getAverageMark(index)? accum : index).name
+     return students.reduce((accum, index) => getAvrgMark(accum) > getAvrgMark(index)? accum : index).name
  }
  console.log('Best  student is:', getBestStudent(students));
 
