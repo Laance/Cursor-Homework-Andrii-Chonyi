@@ -1,45 +1,40 @@
 class Student {
-    marksStudent = [5, 4, 4, 5];
-    marksStudentNew = [];
+    
     constructor(university, course, fullName) {
         this.university = university;
         this.course = course;
-        this.fullName = fullName
+        this.fullName = fullName;
+        this.marksStudent = [5, 4, 4, 5];
+        this.isDismissed=false;
     }
     getInfo() {
         return `Студент ${this.course}го курсу ${this.university}, м.Львів, ${this.fullName}`
     }
     get marks() {
-        return this.marksStudent;
+        return this.isDismissed ? `CТудент виключений` : this.marksStudent;
     }
-    set markPluss(mark) {
-        if (this.mark !== null) {
-            this.marksStudent.push(mark);
-        }
+    set marks(mark) {
+        return this.isDismissed ? `CТудент виключений` : this.marksStudent.push(mark);
     }
     getAvrgMark() {
-        if (this.marksStudent !== null && this.marksStudent.length > 0) {
-            return (this.marksStudent.reduce((a, b) => a + b) / this.marksStudent.length).toFixed(2)
-
-        } else {
-            return 0
-        }
+            return this.isDismissed ? `CТудент виключений` : (this.marksStudent.reduce((a, b) => a + b) / this.marksStudent.length).toFixed(2)
     }
     dismiss() {
-        this.marksStudentNew = this.marksStudent;
-        this.marksStudent = null;
+        this.isDismissed = true;
     }
     recover() {
-        this.marksStudent = this.marksStudentNew;
+        this.isDismissed = false;
+        return `Cтудент ${this.fullName} навчається`;
     }
 }
 
 const andrii = new Student('НУЛП', '3', 'Чорний Андрій Мирославович');
 console.log(andrii.getInfo());
 console.log(andrii.marks);
-andrii.markPluss = 5;
+andrii.marks = 5;
 console.log(andrii.getAvrgMark());
 andrii.dismiss();
 console.log(andrii.marks);
 andrii.recover();
+andrii.marks = 3;
 console.log(andrii.marks);
