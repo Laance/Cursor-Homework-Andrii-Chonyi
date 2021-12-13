@@ -38,6 +38,7 @@ function* newFontGenerator(size) {
 const fontGenerator = newFontGenerator(14);
 textPlaceHolder(fontGenerator.next("up").value);
 
+
 document.addEventListener('click', (event) => {
     if (event.target.id === "btn-down") {
         textPlaceHolder(fontGenerator.next("down").value);
