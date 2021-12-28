@@ -2,10 +2,10 @@ const newIdentificator = document.getElementById('identificator');
 const btnNext = document.getElementById('btn-next');
 const input = document.getElementById('font-size');
 
-newIdentificator.innerHTML = 0;
+newIdentificator.innerHTML = 1;
 
 function* createIdGenerator() {
-    let i = 1;
+    let i = 2;
     while (true) {
         yield newIdentificator.innerHTML = i++;
     }
